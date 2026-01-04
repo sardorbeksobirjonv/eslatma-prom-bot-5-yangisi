@@ -138,7 +138,7 @@ async def til(update: Update, context: ContextTypes.DEFAULT_TYPE):
 # ================= CONTACT =================
 async def kontakt(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🌍 Mintaqani yozing (masalan: Toshkent)",
+        "🌍 Mintaqani yozing (masalan: Tashkent)",
         reply_markup=ReplyKeyboardRemove(),
     )
     return MINTQA
